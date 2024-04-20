@@ -249,7 +249,7 @@ body {
   background-color: var(--international-orange-engineering);
   color: var(--white);
   max-width: max-content;
-  font-family: "Poppins";
+  font-family: var(--ff-Poppins);
   font-weight: var(--fw-600);
   text-transform: uppercase;
   display: flex;
