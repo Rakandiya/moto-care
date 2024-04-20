@@ -493,6 +493,7 @@ section {
 .merk:hover,
 .merk.clicked {
   color: var(--base-color);
+  cursor: pointer;
 }
 
 .input {
