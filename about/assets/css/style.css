@@ -870,7 +870,7 @@ body {
   }
 
   .header .container {
-    gap: 30px;
+    /* gap: 3px; */
   }
 
   .navbar,
@@ -887,6 +887,7 @@ body {
   .navbar-link {
     position: relative;
     font-size: unset;
+    font-size: 1.29rem;
   }
 
   .navbar-link:is(:hover, :focus-visible) {
@@ -909,8 +910,8 @@ body {
 
   .header .btn {
     display: flex;
-    padding: 12px 24px;
-    font-size: var(--fs-5);
+    padding: 10px 20px;
+    font-size: 1.2rem;
   }
 
   /**
@@ -1014,6 +1015,10 @@ body {
     padding-block: 25px;
   }
 
+  .header .container {
+    gap: 9px;
+  }
+
   .logo img {
     width: 128px;
   }
@@ -1021,6 +1026,14 @@ body {
   .header .btn {
     font-size: unset;
     padding-block: 15px;
+  }
+
+  .navbar-link {
+    font-size: 1.55rem;
+  }
+
+  .header .btn {
+    font-size: 1.55rem;
   }
 
   /**
