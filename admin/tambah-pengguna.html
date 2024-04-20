@@ -200,6 +200,7 @@
         if (file) {
           const reader = new FileReader();
           reader.addEventListener("load", function () {
+            console.log(reader.result);
             imgPreview.src = reader.result;
           });
           reader.readAsDataURL(file);

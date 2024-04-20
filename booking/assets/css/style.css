@@ -446,9 +446,13 @@ body {
   color: var(--international-orange-engineering);
 }
 
-.active-navbar {
-  background-color: var(--white);
-  color: var(--international-orange-engineering);
+.active-navbar::before {
+  opacity: 1;
+  content: url("../images/nav-before-img.png");
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*-----------------------------------*\
