@@ -459,6 +459,12 @@ body {
   #BOOKING-RIWAYAT
 \*-----------------------------------*/
 
+.user {
+  text-align: center;
+  color: var(--white);
+  padding: 30px;
+}
+
 section {
   border-radius: 25px;
   padding: 30px;
